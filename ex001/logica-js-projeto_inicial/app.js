@@ -8,3 +8,11 @@ if (chute == numeroSecreto) {
 } else {
     alert('Você errou! Tente novamente!')
 }
+
+let palavraTentativa = tentativas > 1 ?
+alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+/*if (tentativas > 1) {
+    alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`);
+} else {
+    alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas.`)
+}*/
